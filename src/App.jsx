@@ -32,7 +32,7 @@ const App = () => {
     <div className='bg-black w-full h-screen'>
       <div className='bg-black h-auto pb-10 text-white flex flex-col items-center pt-20 gap-5'>
       <h2 className='text-3xl  font-bold '>To Do List</h2>
-     <div className='bg-gray-600 rounded w-[80%] md:w-[70%] lg:w-[60%] p-5'>
+     <div className='bg-gray-600 rounded w-[90%] md:w-[70%] lg:w-[60%] p-5'>
      <form  
       className='flex gap-6 mb-5'
       onSubmit={saveToDoList}>
